@@ -40,11 +40,6 @@ This is a wrapper for L<Pod::POM::Web> to transform it as a L<PSGI> application.
 This allow then to integrate Pod::POM::Web in a bigger web application, by
 mounting it for example with L<Plack::Builder>.
 
-
-Note that the current implementation is only a PSGI wrapper around
-Pod::POM::Web loaded as a CGI (using L<Plack::App::WrapCGI>). This is absolutely
-inefficient. So B<consider this just as a proof of concept>.
-
 =head1 SEE ALSO
 
 =over 4
